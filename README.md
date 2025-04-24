@@ -49,6 +49,55 @@ Random Forest Classifier
 /Resources/nba_playoffs_2025.csv - Test set for champion prediction
 
 
+## Main Components of the code
 
+# Data Aggregation and Labeling
+
+ALl team stats from 2014 to 2025 are combined into a single dataset
+
+A new column Champion is added, labeled 1 for the actual NBA champion of each season and 0 for all the others
+
+# Feature Engineering
+
+Both offensive and opponent/defensive sats are used 
+
+Features are selected to train machine learning models
+
+# Model Training
+
+A Ranodom Forest classifier is trained on 2014 -2024 data to predict the Champion
+
+The model outputs probabilities of each team being the 2025 champion
+
+# Evaluation
+
+ Accuracy, precision , recall and F1 score are calculated on a validation split
+
+ A confision matrix helps visualize the models performance
+
+ # Prediction Output
+
+ 2025 team probabillities are ranked
+
+ A pie chart visualizes the top teams by the title odds
+
+ Moneyline odds are calculated and printed for easy comparision to public betting lines
+
+ ## Data Visualization Overview:
  
- 
+![Screenshot 2025-04-23 223052](https://github.com/user-attachments/assets/bb1b7f74-9328-49ea-a6aa-f0d112166104)
+
+
+![Screenshot 2025-04-23 223126](https://github.com/user-attachments/assets/ad0fba2f-f6bb-4a20-88c2-a674fbcc3f60)
+
+
+![Screenshot 2025-04-23 223143](https://github.com/user-attachments/assets/4fbc479c-b6c1-4ff0-a6a4-41d1559ee87c)
+
+
+![Screenshot 2025-04-23 223152](https://github.com/user-attachments/assets/af326f37-0906-4977-870d-3eb8b8ceaefc)
+
+
+![Screenshot 2025-04-23 223200](https://github.com/user-attachments/assets/81e70b19-16be-4264-8911-8e0cf8687bfd)
+
+
+![Screenshot 2025-04-23 223209](https://github.com/user-attachments/assets/b6b114e3-1de5-4554-bb46-a2c41d748fb0)
