@@ -40,7 +40,7 @@ Random Forest Classifier
 
  project.ipynb - MAin notebook containing data processing , model training , evaluation and prediction
  
- project_bj.ipynb - Notebook with added visual graphs and data model comparision and evaluation
+ project-bj.ipynb - Notebook with added visual graphs and data model comparision and evaluation
  
  /Resources/ - Cleaned historical CSVs with added Season and Champion columns
 
