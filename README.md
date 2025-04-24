@@ -38,6 +38,8 @@ Random Forest Classifier
 
  ## File Overview:
 
+ Project Outline NBA.docx - Initial draft of the project planning and requirement
+ 
  project.ipynb - MAin notebook containing data processing , model training , evaluation and prediction
  
  project-bj.ipynb - Notebook with added visual graphs and data model comparision and evaluation
